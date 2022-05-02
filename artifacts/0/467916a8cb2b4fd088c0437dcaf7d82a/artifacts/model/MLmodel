@@ -1,0 +1,43 @@
+artifact_path: model
+flavors:
+  python_function:
+    data: model.xgb
+    env: conda.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.10.2
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.sklearn.XGBClassifier
+    xgb_version: 1.6.0
+mlflow_version: 1.25.1
+model_uuid: 39a0d11affa244c28ceae09eb5672f12
+run_id: 467916a8cb2b4fd088c0437dcaf7d82a
+signature:
+  inputs: '[{"name": "X1", "type": "double"}, {"name": "X2", "type": "double"}, {"name":
+    "X3", "type": "double"}, {"name": "X4", "type": "double"}, {"name": "X5", "type":
+    "double"}, {"name": "X6", "type": "double"}, {"name": "X7", "type": "double"},
+    {"name": "X8", "type": "double"}, {"name": "X9", "type": "double"}, {"name": "X10",
+    "type": "double"}, {"name": "X11", "type": "double"}, {"name": "X12", "type":
+    "double"}, {"name": "X13", "type": "double"}, {"name": "X14", "type": "double"},
+    {"name": "X15", "type": "double"}, {"name": "X16", "type": "double"}, {"name":
+    "X17", "type": "double"}, {"name": "X18", "type": "double"}, {"name": "X19", "type":
+    "double"}, {"name": "X20", "type": "double"}, {"name": "X21", "type": "double"},
+    {"name": "X22", "type": "double"}, {"name": "X23", "type": "double"}, {"name":
+    "X24", "type": "double"}, {"name": "X25", "type": "double"}, {"name": "X26", "type":
+    "double"}, {"name": "X27", "type": "double"}, {"name": "X28", "type": "double"},
+    {"name": "X29", "type": "double"}, {"name": "X30", "type": "double"}, {"name":
+    "X31", "type": "double"}, {"name": "X32", "type": "double"}, {"name": "X33", "type":
+    "double"}, {"name": "X34", "type": "double"}, {"name": "X35", "type": "double"},
+    {"name": "X36", "type": "double"}, {"name": "X37", "type": "double"}, {"name":
+    "X38", "type": "double"}, {"name": "X39", "type": "double"}, {"name": "X40", "type":
+    "double"}, {"name": "X41", "type": "double"}, {"name": "X42", "type": "double"},
+    {"name": "X43", "type": "double"}, {"name": "X44", "type": "double"}, {"name":
+    "X45", "type": "double"}, {"name": "X46", "type": "double"}, {"name": "X47", "type":
+    "double"}, {"name": "X48", "type": "double"}, {"name": "X49", "type": "double"},
+    {"name": "X50", "type": "double"}, {"name": "X51", "type": "double"}, {"name":
+    "X52", "type": "double"}, {"name": "X53", "type": "double"}, {"name": "X54", "type":
+    "double"}, {"name": "X55", "type": "double"}, {"name": "X56", "type": "long"},
+    {"name": "X57", "type": "long"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int32", "shape": [-1]}}]'
+utc_time_created: '2022-05-01 22:12:53.830969'
